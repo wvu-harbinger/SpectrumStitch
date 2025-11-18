@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.spectrumstitch.MainActivity">
+    <item
+        android:id="@+id/button1"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/button2"
+        android:orderInCategory="100"
+        android:title="DrawingTools"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+</menu>
